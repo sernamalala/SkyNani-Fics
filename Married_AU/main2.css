@@ -1,0 +1,340 @@
+/* Independent website: no AO3 Work Skin required. */
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { margin: 0; padding: 0; background: #ffffff; }
+main.website-container { width: 100%; max-width: 720px; margin: 0 auto; }
+img { max-width: 100%; }
+/* SkyNani â€” The Naked Truth About Marriage: normal website styles. */
+.au-part-two{max-width:660px;margin:0 auto;padding:18px 16px 28px;background:#fff;color:#272530;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.55;}
+.au-part-two *{box-sizing:border-box;}
+.au-part-title{margin:8px 0 24px;padding:0 0 12px;border:0;border-bottom:1px solid #efebee;color:#2c2931;font:normal 28px/1.25 Georgia,'Times New Roman',serif;text-align:left;letter-spacing:.01em;}
+.au-section-title{margin:39px 0 21px;padding:0 0 10px;border:0;border-bottom:1px solid #eae6e9;color:#36313a;font:normal 20px/1.4 Georgia,'Times New Roman',serif;letter-spacing:.02em;text-align:left;}
+.au-round{margin:35px 0 21px;padding:8px 12px;border-left:3px solid #e6bdcd;background:#fdf8fa;color:#6d5366;font:700 12px/1.5 Arial,Helvetica,sans-serif;letter-spacing:.12em;}
+.au-question{margin:27px 0 15px;padding:0 0 8px;border:0;border-bottom:1px solid #f0eced;color:#2d2b30;font:normal 17px/1.38 Georgia,'Times New Roman',serif;text-align:left;}
+.au-qno{display:block;margin:0 0 5px;color:#96798c;font:700 10px/1.4 Arial,Helvetica,sans-serif;letter-spacing:.09em;}
+.au-exchange{display:flex;gap:10px;align-items:flex-start;margin:0 0 13px;min-width:0;clear:both;}
+.au-avatar{display:block;flex:0 0 36px;width:36px;height:36px;overflow:hidden;border-radius:50%;background:#f1eefa;}
+.au-photo{display:block;width:36px;height:36px;border-radius:50%;object-fit:cover;}
+.au-entry{display:block;min-width:0;max-width:86%;}
+.au-name{margin:0 0 4px;font-size:12px;line-height:1.4;font-weight:700;}
+.au-bubble{padding:10px 13px;border-radius:3px 14px 14px 14px;font-size:13px;line-height:1.6;overflow-wrap:break-word;}
+.au-bubble p{padding:0;margin:0 0 6px;}
+.au-bubble p:last-child{margin:0;}
+.au-bubble .au-reaction{font-size:18px;}
+.au-exchange--nani .au-name{color:#ad688a;}
+.au-exchange--nani .au-bubble{background:#fbe9f1;border:1px solid #f2d7e4;}
+.au-exchange--sky .au-name{color:#547eaa;}
+.au-exchange--sky .au-bubble{background:#e7f2ff;border:1px solid #d3e5fa;}
+.au-exchange--nycha .au-name{color:#ae7948;}
+.au-exchange--nycha .au-bubble{background:#fff0df;border:1px solid #f4dfc6;}
+.au-stage{max-width:545px;margin:17px 0 17px 46px;padding:0;color:#7d737d;font:italic 13px/1.6 Georgia,'Times New Roman',serif;}
+.au-media{max-width:100%;margin:13px 0 19px 46px;padding:0;border:0;}
+.au-media img{display:block;height:auto;width:auto;max-width:100%;max-height:270px;object-fit:contain;border-radius:8px;}
+.au-media--hero{margin:15px 0 6px;}
+.au-media--hero img{max-width:100%;width:100%;height:auto;max-height:420px;object-fit:contain;border-radius:9px;}
+.au-media--gif img{max-height:245px;}
+.au-image-title{margin:0 0 20px;color:#756f7b;font-size:10px;font-weight:700;letter-spacing:.08em;}
+.au-whiteboard{margin:10px 0 14px 46px;padding:9px 13px;border:1px solid #dedde0;border-left:3px solid #d9cade;border-radius:5px;background:#fff;max-width:480px;}
+.au-whiteboard--sky{border-left-color:#a9c8ee;}
+.au-whiteboard--nani{border-left-color:#e5b5ca;}
+.au-whiteboard span{display:block;font-size:11px;color:#797079;font-weight:bold;margin-bottom:3px;}
+.au-whiteboard p{margin:0;font-size:13px;}
+.au-live-comments{max-width:530px;margin:28px auto;padding:13px 16px 10px;border:1px solid #eceaf0;border-radius:9px;background:#faf9fb;}
+.au-live-top{display:flex;justify-content:space-between;gap:8px;padding:0 0 9px;margin-bottom:8px;border-bottom:1px solid #eae5ea;font:700 11px/1.4 Arial,sans-serif;}
+.au-live-status{color:#a96e7c;letter-spacing:.04em;}
+.au-live-count{color:#99919b;}
+.au-live-line{display:flex;align-items:flex-start;gap:8px;margin:0 0 10px;color:#48424b;font-size:12px;line-height:1.55;}
+.au-live-line .twt-icon,.au-live-line .twt-letter{flex:0 0 25px;width:25px;height:25px;line-height:25px;}
+.au-live-handle{color:#a4708d;font-weight:bold;}
+/* The following Twitter CSS is copied from the user-provided TWITTER-SOURCE(1).txt. */
+.twt {
+  float: center;
+  max-width: 20em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0em auto;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.twt-header {
+  overflow: hidden;
+  margin-top: -0.5em;
+  margin-bottom: -2.8em;
+}
+
+.twt-icon-container {
+  float: left;
+}
+
+.twt-icon {
+  border-radius: 50%;
+  width: 3em;
+}
+
+.twt-iconquote {
+  border-radius: 50%;
+  width: 2em;
+}
+
+.twt-id {
+  padding-left: 1em;
+  overflow: hidden;
+}
+
+.twt-name {
+  font-weight: bold;
+}
+
+.twt-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.twt-handle {
+  font-size: 0.9em;
+  color: #657786;
+}
+
+.twt-handle:hover {
+  cursor: pointer;
+}
+
+.twt-content {
+  font-size: 1em;
+  margin-bottom: -1em;
+}
+
+.twt-contentquote {
+  font-size: 1em;
+  margin-bottom: -0.5em;
+}
+
+.twt-timestamp {
+  color: #657786;
+  font-size: 0.7em;
+}
+
+hr.twt-sep,
+hr.twt-sep-reply {
+  border: none;
+  height: 1px;
+  width: 100%;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
+  background-color: #e6e6e6;
+}
+
+.twt-stat1 {
+  color: #657786;
+  font-size: 0.7em;
+}
+
+.twt-quotebox {
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+}
+
+.twt-image {
+  float: center;
+  max-width: 100%;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  margin-bottom: -0.5em;
+}
+
+.twt-icon-replycontainer {
+  float: left;
+}
+
+.twt-replycontainer {
+  padding-left: 1em;
+  overflow: hidden;
+}
+
+.twt-replycontent {
+  margin-top: -1.5em;
+  margin-bottom: -0.5em;
+}
+
+.twt-stat2 {
+  color: #657786;
+  font-size: 0.7em;
+  margin-top: -2em;
+}
+
+.twt-social {
+  float: left;
+  margin-right: 2em;
+  margin-bottom: -0.5em;
+}
+
+.twt-socialimg {
+  height: 12px;
+  display: inline;
+  padding-right: 3px;
+}
+
+.twt-hl {
+  font-size: 0.9em;
+  color: #1DA1F2;
+}
+
+.twt-hl:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* Preserve supplied twt-* tweet design; adjustments for long tweets and mobile screens. */
+.twt {float:none;clear:both;max-width:20em;margin:1.1em auto 1.5em;padding:1em;overflow:hidden;}
+.twt-header {margin-top:0;margin-bottom:.7em;overflow:hidden;}
+.twt-icon-container {float:left;width:3em;}
+.twt-icon {display:block;width:3em;height:3em;object-fit:cover;}
+.twt-letter {display:block;background:#eeeaf0;color:#77717a;border-radius:50%;width:3em;height:3em;line-height:3em;text-align:center;font-weight:bold;}
+.twt-id {padding-left:.7em;overflow:hidden;}
+.twt-id .twt-name {display:inline;font-size:.95em;}
+.twt-id .twt-handle {display:inline;font-size:.83em;}
+.twt-content {font-size:1em;margin:0;line-height:1.5;overflow-wrap:anywhere;}
+.twt-content p {padding:0;margin:0 0 .7em;white-space:pre-wrap;}
+.twt-content p:last-child {margin-bottom:0;}
+.twt-socialimg {height:12px;width:auto;max-width:16px;display:inline;vertical-align:middle;padding-right:3px;border:none;}
+.twt-verified {height:14px;max-width:17px;vertical-align:-2px;padding:0;}
+.twt-image {float:none;display:block;width:auto;max-width:100%;max-height:300px;height:auto;object-fit:contain;margin:.8em 0;border-radius:9px;}
+.twt-timestamp {margin:.85em 0 .6em;font-size:.7em;}
+hr.twt-sep,hr.twt-sep-reply {float:none;clear:both;margin:.65em 0;height:1px;border:0;}
+.twt-stat1 {font-size:.72em;color:#657786;line-height:1.65;display:block;}
+.twt-engagement {display:inline-block;margin-right:9px;white-space:nowrap;}
+.twt-engagement .twt-socialimg {height:12px;}
+.twt-replybox {overflow:hidden;display:block;margin:0 0 .65em;}
+.twt-icon-replycontainer {float:left;width:2.5em;}
+.twt-icon-replycontainer .twt-icon,.twt-icon-replycontainer .twt-letter {width:2.5em;height:2.5em;line-height:2.5em;}
+.twt-replycontainer {padding-left:.6em;overflow:hidden;min-width:0;}
+.twt-replycontainer .twt-name {font-size:.83em;}
+.twt-replycontainer .twt-handle {font-size:.76em;overflow-wrap:anywhere;}
+.twt-replying {font-size:.72em;color:#657786;margin:.3em 0 .25em;}
+.twt-replycontent {font-size:.94em;line-height:1.5;margin:0;overflow-wrap:anywhere;}
+.twt-replycontent p {margin:.2em 0 .5em;white-space:pre-wrap;}
+.twt-stat2 {overflow:hidden;margin:.45em 0 .55em;font-size:.7em;color:#657786;}
+.twt-social {float:left;margin:0 1.2em 0 0;white-space:nowrap;}
+.twt-hl {font-size:inherit;}
+.twt .twt-social img {max-width:15px;}
+.au-live-line .twt-icon,.au-live-line .twt-letter{width:25px;height:25px;line-height:25px;}
+@media screen and (max-width:500px){
+  .au-part-two{padding:14px 8px 22px;}
+  .au-part-title{font-size:25px;}
+  .au-section-title{font-size:19px;}
+  .au-exchange{gap:8px;}
+  .au-entry{max-width:84%;}
+  .au-bubble{font-size:12px;padding:9px 10px;}
+  .au-stage,.au-media,.au-whiteboard{margin-left:42px;}
+  .twt{padding:12px;}
+}
+
+/* Tweet content + attachments share the same left edge.
+   Keep the user's original twt-* markup and icon images unchanged.
+   The prior margin-left:3.7em on both blocks caused differing visual widths.
+   Use the source template's edge alignment and let longer text wrap naturally. */
+.au-part-two .twt {
+  width: 100%;
+  max-width: 480px;
+  text-align: left;
+  overflow: hidden;
+}
+.au-part-two .twt .twt-content,
+.au-part-two .twt > .twt-image,
+.au-part-two .twt > .twt-quotebox {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+}
+.au-part-two .twt .twt-content {
+  width: 100%;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+.au-part-two .twt .twt-content p,
+.au-part-two .twt .twt-replycontent p {
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+  text-align: left;
+}
+.au-part-two .twt > .twt-image {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: left top;
+  margin-top: .8em;
+  margin-bottom: .8em;
+}
+.au-part-two .twt .twt-replycontent {
+  margin-left: 0;
+  min-width: 0;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+.au-part-two .twt .twt-id .twt-name,
+.au-part-two .twt .twt-id .twt-handle {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+.au-part-two .twt .twt-replycontainer .twt-name + .twt-handle {
+  margin-left: .35em;
+}
+.au-part-two .twt .twt-hl + .twt-hl::before {
+  content: " ";
+  white-space: pre;
+}
+
+/* Chapter navigation */
+.chapter-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    max-width: 850px;
+    margin: 45px auto;
+    padding: 20px;
+}
+
+.nav-btn {
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 30px;
+    background: #fce7ee;
+    color: #873e5c;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #f6c6d7;
+    transition: all 0.2s ease;
+}
+
+.nav-btn:hover {
+    background: #e99ab7;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.home-btn {
+    background: #fffafc;
+}
+
+@media (max-width: 600px) {
+    .chapter-navigation {
+        gap: 8px;
+        padding: 12px;
+    }
+
+    .nav-btn {
+        font-size: 12px;
+        padding: 11px 14px;
+    }
+}

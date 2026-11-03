@@ -1,0 +1,271 @@
+/* SkyNani interview: paste into AO3's Work Skin editor. */
+#workskin .au-interview {
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 26px 20px 24px;
+  background: #ffffff;
+  color: #342f3a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#workskin .au-interview * {box-sizing: border-box;}
+#workskin .au-title {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 1.22;
+  color: #352f3a;
+  margin: 0 0 27px;
+  padding: 0;
+  text-align: left;
+  border: 0;
+}
+#workskin .au-thread {display: block;}
+#workskin .au-exchange {
+  display: flex;
+  gap: 11px;
+  align-items: flex-start;
+  margin: 0 0 18px;
+  min-width: 0;
+}
+#workskin .au-avatar {
+  position: relative;
+  display: block;
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+}
+#workskin .au-avatar-fallback {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 11px;
+  font-weight: bold;
+}
+#workskin .au-photo {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  font-size: 0;
+  color: transparent;
+}
+#workskin .au-entry {
+  display: block;
+  min-width: 0;
+  width: auto;
+  max-width: 88%;
+}
+#workskin .au-name {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0 0 5px;
+}
+#workskin .au-bubble {
+  border-radius: 3px 15px 15px 15px;
+  padding: 11px 14px;
+  font-size: 13px;
+  line-height: 1.65;
+  overflow-wrap: break-word;
+}
+#workskin .au-bubble p {margin: 0; padding: 0;}
+#workskin .au-bubble p + p {margin-top: 7px;}
+#workskin .au-bubble p.au-reaction {font-size: 17px; line-height: 1.3; margin-top: 6px;}
+#workskin .au-bubble p.au-stage {font-size: 12px; font-style: italic; color: #8a7b84;}
+#workskin .au-bubble p.au-pause {letter-spacing: .08em;}
+
+/* Nani — soft pink */
+#workskin .au-exchange--nani .au-avatar {background: #f3d2e1; color: #89516a;}
+#workskin .au-exchange--nani .au-name {color: #aa5a7c;}
+#workskin .au-exchange--nani .au-bubble {background: #fbe9f1; border: 1px solid #f3d7e4;}
+
+/* Joong — soft lavender (keeps Sky blue and Nychaa orange available later) */
+#workskin .au-exchange--joong .au-avatar {background: #ded8f3; color: #665d8d;}
+#workskin .au-exchange--joong .au-name {color: #74619e;}
+#workskin .au-exchange--joong .au-bubble {background: #f0edfa; border: 1px solid #e3dcf5;}
+
+/* Reserved for the next section: Sky — blue; Nychaa — orange */
+#workskin .au-exchange--sky .au-avatar {background: #d1e4fc; color: #4c7097;}
+#workskin .au-exchange--sky .au-name {color: #527da8;}
+#workskin .au-exchange--sky .au-bubble {background: #e7f2ff; border: 1px solid #d5e7fb;}
+#workskin .au-exchange--nycha .au-avatar {background: #f9dfc4; color: #9b6b3c;}
+#workskin .au-exchange--nycha .au-name {color: #b67c47;}
+#workskin .au-exchange--nycha .au-bubble {background: #fff0df; border: 1px solid #f8e1c5;}
+
+@media screen and (max-width: 480px) {
+  #workskin .au-interview {padding: 20px 10px;}
+  #workskin .au-title {font-size: 25px; margin-bottom: 22px;}
+  #workskin .au-bubble {font-size: 12px; padding: 10px 12px;}
+}
+/* SkyNani interview: paste into AO3's Work Skin editor. */
+.page-scope .au-interview {
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 26px 20px 24px;
+  background: #ffffff;
+  color: #342f3a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-scope .au-interview * {box-sizing: border-box;}
+.page-scope .au-title {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 1.22;
+  color: #352f3a;
+  margin: 0 0 27px;
+  padding: 0;
+  text-align: left;
+  border: 0;
+}
+.page-scope .au-thread {display: block;}
+.page-scope .au-exchange {
+  display: flex;
+  gap: 11px;
+  align-items: flex-start;
+  margin: 0 0 18px;
+  min-width: 0;
+}
+.page-scope .au-avatar {
+  position: relative;
+  display: block;
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+  border-radius: 50%;
+  text-align: center;
+}
+.page-scope .au-avatar-fallback {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.page-scope .au-photo {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  font-size: 0;
+  color: transparent;
+}
+.page-scope .au-entry {
+  display: block;
+  min-width: 0;
+  width: auto;
+  max-width: 88%;
+}
+.page-scope .au-name {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0 0 5px;
+}
+.page-scope .au-bubble {
+  border-radius: 3px 15px 15px 15px;
+  padding: 11px 14px;
+  font-size: 13px;
+  line-height: 1.65;
+  overflow-wrap: break-word;
+}
+.page-scope .au-bubble p {margin: 0; padding: 0;}
+.page-scope .au-bubble p + p {margin-top: 7px;}
+.page-scope .au-bubble p.au-reaction {font-size: 17px; line-height: 1.3; margin-top: 6px;}
+.page-scope .au-bubble p.au-stage {font-size: 12px; font-style: italic; color: #8a7b84;}
+.page-scope .au-bubble p.au-pause {letter-spacing: .08em;}
+
+/* Nani â€” soft pink */
+.page-scope .au-exchange--nani .au-avatar {background: #f3d2e1; color: #89516a;}
+.page-scope .au-exchange--nani .au-name {color: #aa5a7c;}
+.page-scope .au-exchange--nani .au-bubble {background: #fbe9f1; border: 1px solid #f3d7e4;}
+
+/* Joong â€” soft lavender (keeps Sky blue and Nychaa orange available later) */
+.page-scope .au-exchange--joong .au-avatar {background: #ded8f3; color: #665d8d;}
+.page-scope .au-exchange--joong .au-name {color: #74619e;}
+.page-scope .au-exchange--joong .au-bubble {background: #f0edfa; border: 1px solid #e3dcf5;}
+
+/* Reserved for the next section: Sky â€” blue; Nychaa â€” orange */
+.page-scope .au-exchange--sky .au-avatar {background: #d1e4fc; color: #4c7097;}
+.page-scope .au-exchange--sky .au-name {color: #527da8;}
+.page-scope .au-exchange--sky .au-bubble {background: #e7f2ff; border: 1px solid #d5e7fb;}
+.page-scope .au-exchange--nycha .au-avatar {background: #f9dfc4; color: #9b6b3c;}
+.page-scope .au-exchange--nycha .au-name {color: #b67c47;}
+.page-scope .au-exchange--nycha .au-bubble {background: #fff0df; border: 1px solid #f8e1c5;}
+
+@media screen and (max-width: 480px) {
+  .page-scope .au-interview {padding: 20px 10px;}
+  .page-scope .au-title {font-size: 25px; margin-bottom: 22px;}
+  .page-scope .au-bubble {font-size: 12px; padding: 10px 12px;}
+}
+
+body {margin:0; padding:0; background:#ffffff;}
+.page-scope {max-width: 650px; margin: 0 auto; padding: 0 8px;}
+@media screen and (max-width: 480px){.page-scope {padding:0;}}
+
+.chapter-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    max-width: 850px;
+    margin: 45px auto;
+    padding: 20px;
+}
+
+.nav-btn {
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 30px;
+    background: #fce7ee;
+    color: #873e5c;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #f6c6d7;
+    transition: all 0.2s ease;
+}
+
+.nav-btn:hover {
+    background: #e99ab7;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.home-btn {
+    background: #fffafc;
+}
+
+@media (max-width: 600px) {
+    .chapter-navigation {
+        gap: 8px;
+        padding: 12px;
+    }
+
+    .nav-btn {
+        font-size: 12px;
+        padding: 11px 14px;
+    }
+}
