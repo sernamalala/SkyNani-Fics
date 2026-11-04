@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="theme-color" content="#fff7f4">
+  <meta name="description" content="A personal reading page for Boyfriend Applications, by Anres.">
+  <title>SkyNani Interview ♡ | Anres</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #453139;
+      --muted: #79676e;
+      --rose: #6ec2e7;
+      --line: #e9d3d9;
+      --paper: #fffefa;
+      --shadow: 0 26px 75px rgba(110, 61, 77, .10);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      color: var(--ink);
+      font-family: "DM Sans", "Avenir Next", Arial, sans-serif;
+      background:
+        radial-gradient(ellipse 65% 47% at 8% 5%, #f7dce4 0, transparent 80%),
+        radial-gradient(ellipse 60% 50% at 100% 85%, #eadde9 0, transparent 85%),
+        linear-gradient(160deg, #fff9f6 0%, #fff2f0 45%, #fff9f5 100%);
+    }
+    body::before {
+      content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+      background-image: radial-gradient(#b9869660 .65px, transparent .65px);
+      background-size: 22px 22px; opacity: .16;
+    }
+    a { -webkit-tap-highlight-color: transparent; }
+    .site {
+      width: min(100% - 32px, 850px);
+      margin: 56px auto 45px;
+    }
+    .topline {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px; margin-bottom: 18px; padding: 0 7px;
+      font-size: .70rem; font-weight: 700; letter-spacing: .19em; text-transform: uppercase;
+      color: #956c7b;
+    }
+    .topline .small-heart { font-size: 1.4rem; letter-spacing: 0; color: #b85f84; }
+    .paper {
+      position: relative; overflow: hidden; border-radius: 29px;
+      background: rgba(255,254,251,.94); border: 1px solid #ffffff;
+      box-shadow: var(--shadow); padding: 69px 72px 52px;
+    }
+    .paper::before {
+      content: ""; position: absolute; inset: 11px;
+      border: 1px solid #f1e2e3; border-radius: 20px;
+      pointer-events: none;
+    }
+    .shine {
+      width: 70px; height: 70px; border-radius: 50%;
+      background: #fce8ed; display: grid; place-items: center;
+      font-size: 2.35rem; color: var(--rose); margin: 0 auto 27px;
+      box-shadow: 0 5px 0 #fff, 0 10px 20px #eab7c333;
+    }
+    .hero { text-align: center; }
+    .eyebrow {
+      margin: 0 0 13px; color: var(--rose);
+      font-size: .70rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .23em;
+    }
+    h1 {
+      font-family: "Lora", "Iowan Old Style", Georgia, serif;
+      font-weight: 500; letter-spacing: -.045em;
+      font-size: clamp(2.6rem, 6.4vw, 4.25rem);
+      line-height: 1.16; margin: 0 auto 19px; max-width: 680px;
+    }
+    h1 .first { display: block; font-size: .58em; letter-spacing: -.02em; font-weight: 400; margin-bottom: 7px; color:#886b76; }
+    h1 .title-pink { color: var(--rose); font-style: italic; }
+    .little-deco {
+      margin: 0 auto 24px; display: flex; align-items: center;
+      justify-content: center; gap: 14px; color: #b16e87;
+      font-size: .95rem;
+    }
+    .little-deco::before, .little-deco::after {
+      content: ""; height: 1px; width: 63px; background: #e8bdcb;
+    }
+    .intro {
+      font-family: "Lora", Georgia, serif; font-size: 1.07rem;
+      line-height: 1.7; color: #70a9de; margin: 0 auto 41px;
+    }
+    .notice {
+      border: 1px solid #efd7dc;
+      background: linear-gradient(145deg, #fff9f7, #fdf0f3);
+      border-radius: 19px; padding: 26px 30px;
+      max-width: 670px; margin: 0 auto;
+    }
+    .notice-title {
+      display: flex; align-items: center; gap: 10px;
+      margin: 0 0 14px; font-size: .88rem; font-weight: 700;
+      color: #8d4965; letter-spacing: .025em;
+    }
+    .notice-title .emoji { font-size: 1.12rem; }
+    .notice p {
+      margin: 0 0 13px; font-size: .94rem; line-height: 1.85;
+      color: #67545e;
+    }
+    .notice p:last-child { margin-bottom: 0; }
+    .notice strong { color: #5cc6d4; }
+    .chapters { padding-top: 44px; }
+    .section-overline { font-size: .68rem; font-weight: 700; letter-spacing: .19em; color: #ad6b82; text-transform: uppercase; text-align: center; margin: 0 0 10px; }
+    h2 { font: 500 clamp(1.5rem, 3.4vw, 2rem)/1.35 "Lora", Georgia,serif; text-align:center; letter-spacing: -.025em; margin: 0 0 28px; }
+    .chapter-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .chapter-link {
+      position: relative;
+      display: flex; align-items: center; gap: 15px;
+      border-radius: 18px; padding: 19px 20px;
+      border: 1px solid #ebd3db;
+      background: #fff8f9;
+      color: #533a45;
+      text-decoration: none;
+      min-height: 99px;
+      box-shadow: 0 4px 10px #9e6a7e0a;
+      transition: background .2s ease, transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+    }
+    .chapter-link:nth-child(2) { background: #fff9f0; border-color: #efe0c9; }
+    .chapter-link:nth-child(3) { background: #f7f6ff; border-color: #dfd9ed; }
+    .chapter-link:nth-child(4) { background: #f3faf7; border-color: #cee9dd; }
+    .chapter-link:hover { transform: translateY(-4px); box-shadow: 0 12px 28px #8b4d6a24; background: #fff; border-color: #bc8fa3; }
+    .chapter-link:focus-visible { outline: 3px solid #9c5376; outline-offset: 3px; }
+    .chapter-emoji {
+      width: 51px; height: 51px; flex: 0 0 51px;
+      background: #fff; border: 1px solid #f2e3e7;
+      display: grid; place-items: center; border-radius: 15px;
+      font-size: 1.65rem;
+    }
+    .chapter-text { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 4px; }
+    .chapter-title { font-family: "Lora", Georgia, serif; font-size: 1.13rem; font-weight: 600; }
+    .chapter-sub { font-size: .75rem; color: #8a757d; font-weight: 500; }
+    .chapter-arrow { font-size: 1.22rem; color: #a26b80; }
+    .closing { text-align: center; padding-top: 39px; }
+    .closing p { font-family: "Lora", Georgia, serif; font-style: italic; font-size: 1.22rem; margin: 0 0 11px; }
+    .signature { font-family: "Lora", Georgia, serif; font-size: 1rem; color: #a05272; }
+    .bottom { text-align:center; margin-top: 26px; font-size: .73rem; color:#a58b95; }
+    @media (max-width: 700px) {
+      .site { margin-top: 27px; width: min(100% - 20px, 550px); }
+      .paper { padding: 48px 23px 37px; border-radius: 22px; }
+      .paper::before { inset: 7px; border-radius: 16px; }
+      .notice { padding: 23px 19px; }
+      .chapter-grid { grid-template-columns: 1fr; }
+      .chapter-link { min-height: 83px; }
+      .topline { letter-spacing: .12em; font-size: .63rem; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="site">
+    <div class="topline"><span>anres's property.</span></div>
+    <div class="topline"><span>hosted on netlify, coded by me, please engage with webpage wisely.</span></div>
+    <article class="paper">
+      <header class="hero">
+        <div class="shine" aria-hidden="true">💍</div>
+        <h1><span class="title-pink">Married life: The interview</span></h1>
+      </header>
+
+     <span class="emoji" aria-hidden="true"></span> <h3 style="color: darkred;">little note before you read</h3> </h2>
+        <p>This is the author's personal page. <strong>Please do not share unless for reading purposes.</strong> This page will be taken down by the <strong>14th of November 2026.</strong></p>
+        <p>If you have issues viewing images, GIFs or any element of the chapter, please try refreshing and ensure that you have a good internet connection. If issues persist, please try reading at another hour, or you can read the chapter without the visuals...I've honestly tried everything to fix this.</p>
+   
+      <nav class="chapters" aria-labelledby="chapter-title">
+        <h2 id="chapter-title">Read the drabble first, for a good recap.</h2>
+        <h4 id="chapter-title">If you have a PC try alternating between your mobile device and PC to see which loads the images better.</h4>
+        <div class="chapter-grid">
+          <a class="chapter-link" href="./Married_AU/main1.html"><span class="chapter-emoji" aria-hidden="true">🫥</span><span class="chapter-text"><span class="chapter-title">Drabble</span><span class="chapter-sub">2025 tweets</span></span><span class="chapter-arrow" aria-hidden="true">↗</span></a>
+          <a class="chapter-link" href="./Married_AU/main2.html"><span class="chapter-emoji" aria-hidden="true">❤️‍🔥</span><span class="chapter-text"><span class="chapter-title">Interview fic</span><span class="chapter-sub">Married life</span></span><span class="chapter-arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+      <footer class="closing"><p>enjoy reading!</p><span class="signature">— Anres ❤️</span></footer>
+    </article>
+
+    <h3 style="color: red;"><i>Hugs and kisses everyone🫶 Let's be optimistic!!! Like Sky said, the best is yet to come❤️</i></h1>
+<div>
+        <figure>
+        <img style="width: 100%;" src="https://media1.tenor.com/m/8Z831kG3ZToAAAAd/the-best-is-yet-to-come-bts.gif" alt="">
+      </figure>
+</div>
+  </main>
+</body>
+</html>
